@@ -1,0 +1,44 @@
+#blog article::before{
+    content: '';
+    border-radius: 50%;
+    background-color: #ff5722;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 0;
+}
+
+#blog article::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #adadad;
+    top: 0;
+    left: 6.3px;
+    z-index: -1;
+}
+
+#qoute {
+    padding: 6rem 0 5rem 0;
+    background-attachment: fixed;
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-arrow-up.fixed-bottom {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    display: none;
+    bottom: 1rem;
+    left: 95%;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-arrow-up.fixed-bottom{
+        left: 88%;
+    }
+}

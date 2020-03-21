@@ -1,0 +1,723 @@
+/* global style starts here */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* global style ends here */
+/* ---------------------------------- */
+/* navbar style starts here */
+
+.navbarHandle{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #333 ;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(185, 185, 185) ;
+}
+
+.navbarHandle .navbar-brand{
+    color: #00bfa5 !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ff5722;
+}
+
+#lang {
+    cursor: pointer;
+}
+
+/* navbar style ends here */
+/* ---------------------------------- */
+/* slider style starts here */
+
+.carousel-item{
+    max-height: 90vh;
+}
+
+.carousel-caption {
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-50%, -48.5%);
+}
+
+.h1{
+    font-weight: 700;
+}
+
+.carousel-caption p{
+    font-size: 0.7rem;
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5722;
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+    line-height: 0.8rem;
+}
+
+.carousel-caption .btn{
+    border-radius: 0.9rem;
+}
+
+#carouselExampleIndicators .mb-5{
+    margin-bottom: 2.5rem !important;
+}
+
+/* slider style ends here */
+/* ---------------------------------- */
+/* about style starts here */
+
+#about{
+    padding: 7rem 0 4.5rem 0;
+}
+
+.rotated-imgs-wrapper img{
+    transform: rotate(-23deg);
+    border: 0.5rem solid #f5f5f5;
+    box-shadow: 1px 3px 8px rgb(211, 211, 211);
+}
+
+.rotated-imgs-wrapper img:last-child{
+    position: relative;
+    top: -3rem;
+    left: -1rem;
+}
+
+#about h2{
+    color: #333;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px  rgb(182, 182, 182);
+}
+
+#about p{
+    font-size: 0.8rem;
+    color: #adadad;
+}
+
+#about .h6{
+    text-transform: capitalize;
+}
+
+#about .media {
+    width: 80%;
+}
+
+#about .media img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.about-media-wrapper{
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    color: #adadad;
+}
+
+.about-media-wrapper .h6{
+    color: #333;
+}
+
+/* about style ends here */
+/* ---------------------------------- */
+/* services style starts here */
+
+#services{
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 4.5rem 0;
+}
+
+.services-icon_wrapper {
+    width: 20%;
+    border-radius: 50%;
+    border: 1px solid  #fff;
+    padding: calc(10% - 0.8rem) 0;
+    line-height: 0;
+    font-size: 1.6rem;
+}
+
+#services h2{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#services p{
+    font-size: 0.8rem;
+}
+
+/* services style ends here */
+/* ---------------------------------- */
+/* blog style starts here */
+
+#blog{
+    padding: 4rem 0;
+}
+
+#blog h2{
+    text-transform: capitalize;
+    color: #333;
+}
+
+#blog p{
+    font-size: 0.8rem;
+    color: #adadad;
+}
+
+#blog time{
+    font-size: 0.8rem;
+}
+
+#blog article{
+    position: relative;
+}
+
+/* blog style ends here */
+/* ---------------------------------- */
+/* 'why choose us' style starts here */
+
+#choose h2,
+#choose h3{
+    text-transform: capitalize;
+    color: #333;
+}
+
+#choose figure span{
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    color: #adadad;
+}
+
+#choose p{
+    font-size: 0.8rem;
+    color: #adadad;
+}
+
+#choose figure{
+    border: 1px solid #d3d2d2;
+    margin: 0 0.6rem;
+}
+
+/* 'why choose us' style ends here */
+/* ---------------------------------- */
+/* counter style starts here */
+
+#counter{
+    padding: 4rem 0;
+    background-attachment: fixed;
+    background-image: url(../images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+#counter .quote{
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+}
+
+.counter-icon_wrapper {
+    width: 3rem;
+    height: fit-content;
+    line-height: 3rem;
+    background-color: #00bfa5;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+.counter-count{
+    font-size: 1.75rem;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+}
+
+.counter-status{
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+/* counter style ends here */
+/* ---------------------------------- */
+/* team style starts here */
+
+#team {
+    padding-top: 4rem;
+}
+
+#team div.team{
+    width: 80%;
+}
+
+#team h2{
+    text-transform: capitalize;
+    color: #333;
+}
+
+#team h3 {
+    text-transform: capitalize;
+}
+
+#team figure {
+    padding: 0 0.63rem;
+    border: none;
+}
+
+.team-social_links-wrapper i{
+    height: fit-content;
+    width: 1.6rem;
+    font-size: 0.6rem;
+    line-height: 1.6rem;
+    color: #fff;
+    transform: rotateY(0deg);
+    transition-duration: 1s;
+}
+
+.team-social_links-wrapper i.fa-facebook-f{
+    background-color: #3b5998;
+}
+
+.team-social_links-wrapper i.fa-twitter{
+    background-color: #00aced;
+}
+
+.team-social_links-wrapper i.fa-google-plus-g{
+    background-color: #f44336;
+}
+
+.team-social_links-wrapper i:hover{
+    transform: rotateY(180deg);
+    transition-duration: 1s;
+}
+
+/* team style ends here */
+/* ---------------------------------- */
+/* qoute style starts here */
+
+#qoute h3{
+    text-transform: capitalize;
+}
+
+#qoute p{
+    font-size: 0.8rem;
+    letter-spacing: 0.75px;
+}
+
+#qoute p sup{
+    font-size: 0.83rem;
+}
+
+/* qoute style ends here */
+/* ---------------------------------- */
+/* plants style starts here */
+
+#plants {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+#plants div.row {
+    width: 80%;
+}
+
+#plants h2{
+    text-transform: capitalize;
+    color: #333;
+}
+
+#plants figure img:hover{
+    box-shadow: 0px 8px 20px 2px #adadad;
+    transform: scale(1.01);
+}
+
+/* plants style ends here */
+/* ---------------------------------- */
+/* contact style starts here */
+
+#contact {
+    /* background-attachment: fixed; */
+    background-image: url(../images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+#contact-form legend,
+#contact h2{
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#contact form {
+    color: #fff;
+}
+
+#contact-form legend{
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#contact-form fieldset{
+    border: 1px solid rgb(228, 227, 227);
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#contact-form button{
+    padding: 1% 0;
+    width: 100%;
+    box-shadow: none;
+    color: #fff;
+    background-color: #00bfa5;
+    border: none;
+}
+
+#contact-form input,
+#contact-form textarea{
+    border-radius: 0;
+}
+
+#contact-form label{
+    font-size: 0.8rem;
+}
+
+.form-control-sm{
+    font-size: 0.6rem;
+}
+
+#contact-links{
+    background-color: #f8f9fa;
+}
+
+#contact-links i{
+    color: #ff5722;
+    font-size: 1.7rem;
+}
+
+#contact-links a,
+#contact-links p{
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #000;
+}
+
+#contact-links div{
+    width: 80%;
+}
+
+/* contact style ends here */
+/* ---------------------------------- */
+/* partners style starts here */
+
+#partners {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+#partners h2{
+    text-transform: capitalize;
+    color: #333;
+}
+
+#partners i{
+    font-size: 3.5rem;
+    color: #d6d6d6;
+}
+
+#partners i:hover{
+    color: #ff5722;
+    transition-duration: 1s;
+}
+
+/* partners style ends here */
+/* ---------------------------------- */
+/* footer style starts here */
+
+#footer {
+    /* background-attachment: fixed; */
+    background-image: url(../images/footer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+#footer h2{
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 300;
+}
+
+#footer p{
+    font-size: 0.8rem;
+    color: #807e7e;
+}
+
+#footer p.black{
+    color: #333;
+}
+
+#footer p i{
+    font-size: 0.6rem;
+    color: #000;
+}
+
+#footer p.logo {
+    color: #ff5722;
+    font-size: 3rem;
+}
+
+.social-links i{
+    width: 1.65rem;
+    height: fit-content;
+    line-height: 1.65rem;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.social-links i.fa-facebook-f{
+    background-color: #3b5998;
+}
+
+.social-links i.fa-twitter{
+    background-color: #00aced;
+}
+
+.social-links i.fa-rss{
+    background-color: #f26522;
+}
+
+.social-links i.fa-google-wallet{
+    background-color: #45668e;
+}
+
+#footer p.copyrights span:last-child{
+    color: #ff5722;
+}
+
+/* footer style ends here */
+/* ---------------------------------- */
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+
+    /* -------- about section style -------- */
+
+    #about{
+        padding-bottom: 3.3rem;
+    }
+
+    .rotated-imgs-wrapper{
+        margin: 4.3rem auto 2.3rem auto;
+        width: 80%;
+    }
+
+    .rotated-imgs-wrapper img{
+        border: 0.8rem solid #f5f5f5;
+    }
+
+    #about .media{
+        width: 100%;
+    }
+
+    #about .media img{
+        width: 30%;
+    }
+
+    #about p{
+        font-size: 1.2rem;
+        font-weight: 200;
+        line-height: 2rem;
+    }
+
+    #about .media img{
+        width: 38%;
+        margin-right: 2rem;
+    }
+
+    .about-media-wrapper div{
+        font-size: 1rem;
+        letter-spacing: 1.5px;
+    }
+
+    .about-media-wrapper div .h6{
+        font-size: 1.5rem;
+    }
+
+    /* -------- services section style -------- */
+
+    #services ul li{
+        margin-bottom: 1.75rem;
+    }
+
+    #services ul li:last-child{
+        margin-bottom: 0;
+    }
+
+    .services-icon_wrapper {
+        width: 30%;
+        padding: calc(15% - 1rem) 0;
+        font-size: 2rem;
+        border: 2px solid #fff;
+    }
+
+    #services h2{
+        font-weight: bold;
+        margin-bottom: 1.3rem;
+        letter-spacing: 1.5px;
+    }
+    
+    #services p{
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+    }
+
+    /* -------- blog section style -------- */
+
+    #blog .h6,
+    #blog time,
+    #blog p{
+        font-size: 1.2rem;
+    }
+
+    #blog p{
+        letter-spacing: 1.5px;
+        font-weight: 200;
+    }
+
+    #blog time{
+        align-self: flex-start !important;
+    }
+
+    /* -------- 'why choose us' section style -------- */
+
+    #choose .h6{
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem !important;
+    }
+
+    #choose p{
+        font-size: 1.2rem;
+        letter-spacing: 1.5px;
+        font-weight: 200;
+    }
+
+    #choose figure span{
+        font-size: 0.9rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 1rem !important;
+    }
+
+    /* -------- counter section style -------- */
+    .counter-icon_wrapper {
+        width: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+        margin-right: 2.3rem !important;
+        border-radius: 5px;
+    }
+    
+    .counter-count{
+        font-size: 2.35rem;
+    }
+    
+    .counter-status{
+        font-size: 1.2rem;
+    }
+
+    /* -------- team section style -------- */
+
+    #team figure {
+        padding: 0 0.8rem;
+    }
+
+    #team div.team{
+        width: 100%;
+    }
+    
+    #team figure h3{
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+    }
+
+    .team-social_links-wrapper i{
+        width: 2.3rem;
+        font-size: 1rem;
+        line-height: 2.3rem;
+        margin: 0 0.1rem;
+    }
+
+    /* -------- quote section style -------- */
+
+    #qoute h3 {
+        font-size: 1.5rem;
+    }
+
+    #qoute p {
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
+    /* -------- plants section style -------- */
+    #plants h2{
+        margin-bottom: 5rem !important;
+    }
+
+    #plants div.row {
+        width: 100%;
+    }
+
+    /* -------- contact section style -------- */
+
+    #contact-links{
+        display: block !important;
+    }
+
+    #contact-links div{
+        margin-bottom: 1rem;
+    }
+
+    #contact-links div i{
+        margin-right: 2.5rem !important;
+    }
+
+    /* -------- partners section style -------- */
+    #partners div.col-sm-3{
+        margin-right: 0  !important;
+        margin-left: 0 !important;
+    }
+
+    /* -------- footer section style -------- */
+    .contact-info{
+        display: block !important;
+    }
+
+    #footer p{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+}

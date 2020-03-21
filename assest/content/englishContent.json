@@ -1,0 +1,353 @@
+[
+    {
+        "nav": [
+            "home",
+            "about us",
+            "services",
+            "our team",
+            "blog",
+            "gallery",
+            "contact us",
+            "ع"
+        ]
+    },
+    {
+        "secTitle": [
+            "Welcome to Plants"
+        ],
+        "secContent": [
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fugiat totam aliquid repellat incidunt ea, asperiores."
+                ],
+                "btn": [
+                    "read more"
+                ]
+            },
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fugiat totam aliquid repellat incidunt ea, asperiores."
+                ],
+                "btn": [
+                    "read more"
+                ]
+            },
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fugiat totam aliquid repellat incidunt ea, asperiores."
+                ],
+                "btn": [
+                    "read more"
+                ]
+            },
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fugiat totam aliquid repellat incidunt ea, asperiores."
+                ],
+                "btn": [
+                    "read more"
+                ]
+            }
+        ]
+    },
+    {
+        "secContent": [
+            {
+                "title": [
+                    "Hello!"
+                ],
+                "para": [
+                    "Welcome in this landing page :)"
+                ],
+                "footer": [
+                    "Close"
+                ]
+            }
+        ]
+    },
+    {
+        "secTitle": [
+            "duis aute irure olor in cillum solore"
+        ],
+        "secSubTitle": [
+            "about us"
+        ],
+        "secContent": [
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorem officia, sunt alias reprehenderit iure voluptates natus hic pariatur sed odit laborum rem provident ullam, corrupti, expedita accusantium eligendi aperiam!"
+                ],
+                "ownerName": [
+                    "admin name"
+                ],
+                "ownerImg": [
+                    "company name"
+                ]
+            }
+        ]
+    },
+    {
+        "secContent": [
+            {
+                "title": [
+                    "garden care"
+                ],
+                "para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga delectus adipisci dolorem."
+                ]
+            },
+            {
+                "title": [
+                    "plant renovation"
+                ],
+                "para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga delectus adipisci dolorem."
+                ]
+            },
+            {
+                "title": [
+                    "always fresh"
+                ],
+                "para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga delectus adipisci dolorem."
+                ]
+            }
+        ]
+    },
+    {
+        "secTitle": ["latest", "blog"],
+        "secContent": [
+            {
+                "title": [
+                    "Iste natus error sit"
+                ],
+                "headExtend": [
+                    "21 Nov, 2018"
+                ],
+                "Para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, quasi vero. Et distinctio ipsam a, amet vitae tempora est ut eligendi."
+                ]
+            },
+            {
+                "title": [
+                    "Totam rem aperiam"
+                ],
+                "headExtend": [
+                    "26 Nov, 2018"
+                ],
+                "Para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, quasi vero. Et distinctio ipsam a, amet vitae tempora est ut eligendi."
+                ]
+            },
+            {
+                "title": [
+                    "Eaque ipsa quae"
+                ],
+                "headExtend": [
+                    "30 Nov, 2018"
+                ],
+                "Para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, quasi vero. Et distinctio ipsam a, amet vitae tempora est ut eligendi."
+                ]
+            }
+            
+        ]
+    },
+    {
+        "secTitle": ["why", "choose us"],
+        "secContent": [
+            {
+                "title": [
+                    "quality products"
+                ],
+                "headExtend": [
+                    "magna kictum - loremipsum"
+                ],
+                "para": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eos expedita corpor."
+                ]
+            },
+            {
+                "title": [
+                    "work smart"
+                ],
+                "headExtend": [
+                    "magna kictum - loremipsum"
+                ],
+                "para": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eos expedita corpor."
+                ]
+            },
+            {
+                "title": [
+                    "excellent services"
+                ],
+                "headExtend": [
+                    "magna kictum - loremipsum"
+                ],
+                "para": [
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eos expedita corpor."
+                ]
+            }
+        ]
+    },
+    {
+        "secTitle": [
+            "We give you Care tipps and Ideas on what style suits your garden"
+        ],
+        "secContent": [
+            {
+                "title": [
+                    "1280"
+                ],
+                "para": [
+                    "happy customers"
+                ]
+            },
+            {
+                "title": [
+                    "920"
+                ],
+                "para": [
+                    "awards win"
+                ]
+            },
+            {
+                "title": [
+                    "1400"
+                ],
+                "para": [
+                    "products"
+                ]
+            },
+            {
+                "title": [
+                    "1080"
+                ],
+                "para": [
+                    "ratings"
+                ]
+            }
+        ]
+    },
+    {
+        "secTitle": ["our", "team"],
+        "secContent": [
+            {
+                "title": [
+                    "mack joe"
+                ]
+            },
+            {
+                "title": [
+                    "cruz deo"
+                ]
+            },
+            {
+                "title": [
+                    "rochy jae"
+                ]
+            },
+            {
+                "title": [
+                    "rojo poy"
+                ]
+            }
+        ]
+    },
+    {
+        "secContent": [
+            {
+                "para": [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem veritatis excepturi, ullam, esse voluptatum dignissimos consectetur vitae laudantium tenetur iure ipsum. Quaerat, maiores eaque eligendi ex quibusdam placeat tempore hic"
+                ],
+                "ownerName": [
+                    "mary jane"
+                ]
+            }
+        ]
+    },
+    {
+        "secTitle": ["our", "plants"]
+    },
+    {
+        "secTitle": [
+            "contact",
+            "us"
+        ],
+        "secSubTitle": [
+            "send us a note"
+        ],
+        "secContent": [
+            {
+                "title": [
+                    "Name"
+                ],
+                "para": [
+                    "Enter your name"
+                ],
+                "btn": [
+                    "send"
+                ]
+            },
+            {
+                "title": [
+                    "Email"
+                ],
+                "para": [
+                    "Enter your email"
+                ],
+                "btn": [
+                    "send"
+                ]
+            },
+            {
+                "title": [
+                    "Your Message"
+                ],
+                "para": [
+                    "your message"
+                ],
+                "btn": [
+                    "send"
+                ]
+            },
+            {
+                "para": [
+                    "786 Main Road, hollies California, USA"
+                ]
+            }
+        ]
+    },
+    {
+        "secTitle": ["our", "partners"]
+    },
+    {
+        "secTitle": [
+            "we provide best services"
+        ],
+        "secContent": [
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, debitis minus quis error tempore inventore sit repellendus eum!"
+                ]
+            },
+            {
+                "para": [
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                ]
+            },
+            {
+                "para": [
+                    "345 Setwant natrer, USA"
+                ]
+            },
+            {
+                "para": [
+                    "&copy; 2018 Plants. All rights reserved | Design by",
+                    "W3layouts"
+                ]
+            }
+        ]
+    }
+]
