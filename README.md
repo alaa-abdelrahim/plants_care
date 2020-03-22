@@ -1,19 +1,17 @@
 # Description
 
-Simple blog for personal usage.
-if you a blogger .. then that's for you.
+One-page site in both Arabic and English.
 
-# features
+# includes
 
-- Calling an API for get data.
-- Allow all viewers to see blogs.
-- Allow blog owner to manage blogs using simple dashboard.
-    - allow owner to delete a post.
-    - edit post title and content.
+- Detect the browser language and display content according to it.
+- Allow user to switch between languages.
+- Form validation.
 
 # Tools
 
-- HTML5
+- HTML
 - CSS3 styling
-- native JavaScript (all before ES6)
+- Bootstrap
+- native JavaScript
 
