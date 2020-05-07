@@ -601,6 +601,10 @@ html{
 
 @media only screen and (max-width: 768px) {
 
+    #hero {
+        margin-top: 60px;
+    }
+
     /* -------- about section style -------- */
 
     #about{
