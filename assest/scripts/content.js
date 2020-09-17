@@ -49,15 +49,15 @@ class Arabic {
         blogSecTitleregular : "المقالات",
 
         blog1Title : "عنوان المقال الاول",
-        blog1Date : "21 نوفمبر 2018",
+        blog1Date : "21 Nov, 2018",
         blog1Para : "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.",
         
         blog2Title : "عنوان المقال الثاني",
-        blog2Date : "26 نوفمبر 2018",
+        blog2Date : "26 Nov, 2018",
         blog2Para : "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.",
         
         blog3Title : "عنوان المقال الثالث",
-        blog3Date : "30 نوفمبر 2018",
+        blog3Date : "30 Nov, 2018",
         blog3Para : "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى.",
 
         // ------------------ choose ------------------
@@ -133,7 +133,7 @@ class Arabic {
 
         formBtn : "ارسل",
         
-        contactAddress : "786 الطريق الرئيسي، هوليس كاليفورنيا، الولايات المتحدة الأمريكية",
+        contactAddress : `<span class="number">786</span> الطريق الرئيسي، هوليس كاليفورنيا، الولايات المتحدة الأمريكية`,
 
         // ------------------ partners ------------------
 
@@ -145,7 +145,7 @@ class Arabic {
         footerTitle : "نحن نقدم أفضل الخدمات",
         firstPara : "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.",
         secondPara : "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة",
-        footerAddress : "345 ستوانت ناترير، الولايات المتحدة الأمريكية",
+        footerAddress : `<span class="number">345</span> ستوانت ناترير، الولايات المتحدة الأمريكية`,
         copyRightsPara : "جميع الحقوق  محفوظة | تم التصميم بواسطة",
         designerName : "W3layouts"
     }
@@ -286,7 +286,7 @@ class English {
 
         formBtn : "send",
         
-        contactAddress : "786 Main Road, hollies California, USA",
+        contactAddress : `<span class="number">786</span> Main Road, hollies California, USA`,
 
         // ------------------ partners ------------------
 
@@ -298,7 +298,7 @@ class English {
         footerTitle : "we provide best services",
         firstPara : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, debitis minus quis error tempore inventore sit repellendus eum!",
         secondPara : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-        footerAddress : "345 Setwant natrer, USA",
+        footerAddress : `<span class="number">345</span> Setwant natrer, USA`,
         copyRightsPara : "2018 Plants. All rights reserved | Design by",
         designerName : "W3layouts"
     }

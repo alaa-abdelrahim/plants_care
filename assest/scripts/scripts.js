@@ -118,9 +118,78 @@ function changeAllContent(lang){
             allElementsWithVars[i].setAttribute('value', allElementsWithVars[i].innerHTML);
         }
         var varName = changeToVarFormat(allElementsWithVars[i].getAttribute('value'));
-        allElementsWithVars[i].innerText = varName ? content[varName] : ''; 
+        allElementsWithVars[i].innerHTML = varName ? content[varName] : ''; 
     }
+    changeDates(lang);
+    changeNumber(lang);
+    changePhoneNumber(lang);
     changeFormPlaceHolders(content);
+}
+
+// change dates languge
+
+function changeDates(lang){
+    var datesElements = document.querySelectorAll('time');
+    if(lang == 'ar'){
+        var months = {
+            1: "يناير",
+            2: "فبراير",
+            3: "مارس",
+            4: "ابريل",
+            5: "مايو",
+            6: "يونيو",
+            7: "يوليو",
+            8: "أغسطس",
+            9: "سبتمبر",
+            10: "أكتوبر",
+            11: "نوفمبر",
+            12: "ديسمبر",
+        }
+        for(var i = 0; i< datesElements.length; i++){
+            var date = new Date(datesElements[i].innerHTML);
+            var arDate = date.toLocaleString('ar-EG').split('/');
+            date = date.toLocaleString('en-US').split('/');
+            var changedDate = `${arDate[0]} ${months[date[0]]} ${arDate[2].split(' ')[0]}`;
+            datesElements[i].innerHTML = changedDate;
+        }
+    }
+}
+
+// change numbers languge
+
+function changeNumber(lang){
+    var numbersElements = document.querySelectorAll('.number');
+    for(var i = 0; i<numbersElements.length; i++){
+        if(lang == 'ar'){
+            numbersElements[i].innerHTML = parseInt((numbersElements[i].innerHTML)).toLocaleString('ar-EG');
+        }else {
+            numbersElements[i].innerHTML = parseInt((numbersElements[i].innerHTML)).toLocaleString('en-US');
+        }
+    }
+}
+
+// change phone number
+
+function changePhoneNumber(lang){
+    var phoneNumbers = document.querySelectorAll('.phone');
+    var locale = lang == 'ar' ? 'ar-EG' : 'en-US';
+    for(var i = 0; i<phoneNumbers.length; i++){
+
+        if(!phoneNumbers[i].getAttribute('data-phone')){
+            phoneNumbers[i].setAttribute('data-phone', phoneNumbers[i].innerHTML);
+        }
+
+        var phone =  phoneNumbers[i].getAttribute('data-phone');
+        phoneNumbers[i].innerHTML = '';
+
+        for(var j = 0; j< phone.length; j++){
+            if(/\d/.test(parseInt(phone[j]))) {
+                phoneNumbers[i].innerHTML += parseInt(phone[j]).toLocaleString(locale);
+            } else {
+                phoneNumbers[i].innerHTML += phone[j];
+            }
+        }
+    }
 }
 
 // change form placeholders according to the language
